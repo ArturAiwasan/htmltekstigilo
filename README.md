@@ -5,7 +5,7 @@ Simpla programo, kiu aldonas ```<br>``` al finoj de linioj.
 Por kompilo: lanĉi **make** komandon.  
 
 **Uzado**  
-```htmltekstigilo <fonta-dosiero> <eligajxa-dosiero>```  
+```htmltekstigilo <fonta-dosiero> <eligaĵa-dosiero>```  
 
 **Ekzemple:**  
 ```htmltekstigilo militokajpaco.txt porhtml.txt```  

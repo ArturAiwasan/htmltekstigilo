@@ -2,6 +2,8 @@
 #include <fstream>
 #include <boost/algorithm/string.hpp>
 
+const char * versio = "1.0.0.210822";
+
 void AldoniCxaretrevenigo (std::fstream& el, std::ofstream& en, std::string cxeno, std::string enkio) {
 	if (el.is_open()) {
 		while (el) {
@@ -25,9 +27,8 @@ int main(int argc, char *argv[]){
 	
 	if (argv[1] == 0) {
 		printf ("************* ERARO *************\nUzado:\n  htmltekstigilo <fonta-dosiero> <eligajxa-dosiero>\nEkzemplo:\n  htmltekstigilo militokajpaco.txt porhtml.txt\n");
-		printf ("*********************************\nhtmltekstigilo\nAutoro: arbttrn6 (arturaiwasan[@]gmail.com)\nCxi tiu programo aldonas <br> al fino de linioj\n");
+		printf ("*********************************\nNomo:\n htmltekstigilo\nAutoro:\n arbttrn6 (arturaiwasan[@]gmail.com)\nPriskribo:\n Cxi tiu programo aldonas <br> al fino de linioj\n\nVersio: %s\n*********************************\n", versio);
 	};
-
 	std::fstream el (argv[1]);
 	std::ofstream en (argv[2]);
 	std::string cxeno;
@@ -38,4 +39,3 @@ int main(int argc, char *argv[]){
 	en.close();
 	return 0;
 }
-
