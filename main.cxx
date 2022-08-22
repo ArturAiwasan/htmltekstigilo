@@ -2,7 +2,7 @@
 #include <fstream>
 #include <boost/algorithm/string.hpp>
 
-const char * versio = "1.0.0.210822";
+const char * versio = "1.0.1.220822";
 
 void AldoniCxaretrevenigo (std::fstream& el, std::ofstream& en, std::string cxeno, std::string enkio) {
 	if (el.is_open()) {
